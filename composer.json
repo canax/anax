@@ -1,0 +1,27 @@
+{
+    "name" : "anax/anax",
+    "description": "The Anax framework.",
+    "homepage": "https://github.com/canax/anax",
+    "license": "MIT",
+    "keywords": ["Anax", "Framework"],
+    "authors": [
+        {
+            "name": "Mikael Roos",
+            "email": "mos@dbwebb.se",
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/canax/anax/issues",
+        "source": "https://github.com/canax/anax",
+    },
+    "require": {
+        "php": "^7.2",
+        "anax/anax-lite": "^1.0",
+        "anax/page": "^1.0",
+        "anax/textfilter": "^1.0",
+        "symfony/yaml": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
+    }
+}
