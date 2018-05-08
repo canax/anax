@@ -7,6 +7,7 @@ v1.0.* (2018-05-08)
 ---------------------------------
 
 * Bump version of symfony/yaml to ^3.4.
+* Bump versions on modules, to those actually used.
 
 
 
