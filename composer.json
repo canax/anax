@@ -16,10 +16,7 @@
     },
     "require": {
         "php": "^7.2",
-        "anax/anax-lite": "^1.0.0",
-        "anax/page": "^1.1.0",
-        "anax/textfilter": "^1.0.0",
-        "symfony/yaml": "^3.4.0"
+        "anax/anax-flat": "^1.0.0"
     },
     "autoload": {
         "psr-4": {"Anax\\": "src/"}
