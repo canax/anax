@@ -3,6 +3,15 @@ Revision history
 
 
 
+v2.0.0-beta.1 (2019-12-xx)
+---------------------------------
+
+* Include all anax-modules.
+* Add scaffolding to setup a complete anax site.
+* Add external build services.
+
+
+
 v1.0.3 (2018-05-24)
 ---------------------------------
 
