@@ -3,7 +3,7 @@ Revision history
 
 
 
-v2.0.0-beta.1 (2019-12-xx)
+v2.0.0-beta.1 (2019-12-13)
 ---------------------------------
 
 * Include all anax-modules.
