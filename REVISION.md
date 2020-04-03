@@ -3,10 +3,12 @@ Revision history
 
 
 
-v2.0.x (2019-12-13)
+v2.0.1 (2020-04-04)
 ---------------------------------
 
 * Update year in copyright and readme.
+* Update scaffolding files to be more anax.
+* Add theme-dbwebb as theme/.
 
 
 

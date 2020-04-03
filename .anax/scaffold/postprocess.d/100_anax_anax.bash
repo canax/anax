@@ -4,5 +4,4 @@
 #
 
 # Create dirs needed
-install -d src
-install -d view
+install -d src view
