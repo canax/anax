@@ -1,4 +1,4 @@
-Anax 
+Anax
 =========================
 
 [![Latest Stable Version](https://poser.pugx.org/anax/anax/v/stable)](https://packagist.org/packages/anax/anax)
@@ -33,5 +33,5 @@ This software carries a MIT license. See [LICENSE.txt](LICENSE.txt) for details.
 
 ```
  .  
-..:  Copyright (c) 2013 - 2019 Mikael Roos, mos@dbwebb.se
+..:  Copyright (c) 2013 - 2020 Mikael Roos, mos@dbwebb.se
 ```
