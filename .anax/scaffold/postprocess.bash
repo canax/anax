@@ -10,6 +10,9 @@ source .anax/scaffold/functions.bash
 composer install
 
 # Run own scaffolding scripts
+printf "Execute scaffolding scripts from '.anax/scaffold/postprocessing.d/'\n"
 for file in .anax/scaffold/postprocess.d/*.bash; do
+    printf "."
     bash "$file"
 done
+printf "done.\n"

@@ -54,10 +54,22 @@ There are different ways on how to get going and install a fresh installation of
 
 This is the prefered way since it only requires the use of composer.
 
-Setup a project using composer, in a directory `site/`. Composer automatically installs the dependencies and processes the scaffolding scripts.
+Composer automatically installs in the directory `site/` with the dependencies and processes the scaffolding scripts.
 
 ```
 composer create-project anax/anax site --stability beta
+```
+
+You can also specify the exact version you want.
+
+```
+composer create-project anax/anax site "^2.0" --stability beta
+```
+
+You can also check out the latest development version from the master branch.
+
+```
+composer create-project anax/anax site "dev-master" --stability dev
 ```
 
 
