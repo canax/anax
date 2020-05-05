@@ -3,7 +3,7 @@ Revision history
 
 
 
-v2.0.x (2020-04-04)
+v2.0.2 (2020-05-05)
 ---------------------------------
 
 * Update Makefile from anax/commons.

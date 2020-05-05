@@ -83,8 +83,8 @@ composer create-project anax/anax site "dev-master" --stability dev
 Clone this repo into a folder `site/` and perform composer install and finish up by executing the scaffolding scripts.
 
 ```
-git clone https://github.com/canax/anax.git git
-cd git
+git clone https://github.com/canax/anax.git site
+cd site
 composer install
 composer run-script post-root-package-install
 ```
