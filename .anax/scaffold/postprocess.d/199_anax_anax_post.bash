@@ -1,16 +1,10 @@
 #!/usr/bin/env bash
 #
-# anax/anax-lite
+# anax/anax
 #
-
-# Get routes defined.
-rsync -a vendor/anax/anax/config/router config/
 
 # Remove unused routes
 rm -f config/router/000_application.php
-
-# Add content/.
-rsync -a vendor/anax/anax/content ./
 
 # Use a custom config/page.php
 cp config/page.php config/page_default.php
