@@ -44,5 +44,9 @@
         "anax/view": "^2.0.2",
         "mos/cimage": "^0.7.20",
         "symfony/yaml": "^3.4.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12",
+        "phpunit/phpunit": "^9"
     }
 }

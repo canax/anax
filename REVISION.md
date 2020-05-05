@@ -7,6 +7,7 @@ v2.0.x (2020-04-04)
 ---------------------------------
 
 * Update Makefile from anax/commons.
+* Enable phpstan for development.
 
 
 
