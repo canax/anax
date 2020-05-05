@@ -18,9 +18,9 @@
         "psr-4": {"Anax\\": "src/"}
     },
     "scripts": {
-        "post-root-package-install": {
+        "post-root-package-install": [
             "bash .anax/scaffold/postprocess.bash"
-        }
+        ]
     },
     "minimum-stability": "beta",
     "prefer-stable": true,
