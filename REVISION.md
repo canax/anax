@@ -3,7 +3,15 @@ Revision history
 
 
 
+v2.0.3 (2020-05-05)
+---------------------------------
+
+* Change phpunit to v8 to support php 7.2, 7.3, 7.4.
+
+
+
 v2.0.2 (2020-05-05)
+
 ---------------------------------
 
 * Update Makefile from anax/commons.
