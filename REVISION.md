@@ -3,6 +3,13 @@ Revision history
 
 
 
+v2.0.5 (2020-05-05)
+---------------------------------
+
+* Enable make test-anax to test all anax modules invendor/.
+
+
+
 v2.0.4 (2020-05-05)
 ---------------------------------
 
