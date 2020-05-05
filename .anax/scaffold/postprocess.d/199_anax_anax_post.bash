@@ -16,6 +16,7 @@ cp config/page_anax.php config/page.php
 # There are some stylesheets in htdocs/css
 # these are built from theme repo
 # and will be replace by the below actions
-git clone https://github.com/desinax/theme-dbwebb.se theme
+[[ -d theme ]] \
+    || git clone https://github.com/desinax/theme-dbwebb.se theme
 (cd theme && make install)
 make theme

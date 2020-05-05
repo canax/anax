@@ -15,4 +15,4 @@ for file in .anax/scaffold/postprocess.d/*.bash; do
     printf "."
     bash "$file"
 done
-printf "done.\n"
+printf "done with scaffolding scripts.\n"

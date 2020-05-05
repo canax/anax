@@ -60,7 +60,11 @@ Composer automatically installs in the directory `site/` with the dependencies a
 composer create-project anax/anax site --stability beta
 ```
 
-You can also specify the exact version you want.
+You might want to use the switch `--ignore-platform-reqs` if your cli environment is different from your apache environment.
+
+Here are a few other ways of customising the create project command.
+
+You can specify the exact version you want.
 
 ```
 composer create-project anax/anax site "^2.0" --stability beta
@@ -82,14 +86,14 @@ Clone this repo into a folder `site/` and perform composer install and finish up
 git clone https://github.com/canax/anax.git git
 cd git
 composer install
-bash .anax/scaffold/postprocess.bash
+composer run-script post-root-package-install
 ```
 
 
 
 ### Scaffold using anax-cli
 
-You can install the base for a website using [anax-cli](https://github.com/canax/anax-cli). This is how to scaffold a site in the directory "site".
+You can install the base for a website using [anax-cli](https://github.com/canax/anax-cli). This is how to scaffold a site in the directory `site/`.
 
 ```
 anax create site anax-site-v2
