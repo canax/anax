@@ -1,1 +1,3 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+Copyright © year, publisher, license and equal stuff.
+
+Edit this info in the file 'content/blick/footer.php'.

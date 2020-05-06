@@ -1,3 +1,3 @@
-#### Kursrepo
+#### Block about 1
 
-Skriv något kort om kursen och länka till [kursens hemsida på dbwebb.se](XXX) och till [kursrepot på GitHub](XXX).
+Edit this text in `content/block/about-1.md`.

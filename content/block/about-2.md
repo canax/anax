@@ -1,3 +1,3 @@
-#### Redovisa på GitHub
+#### Block about 2
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+Edit this text in `content/block/about-2.md`.

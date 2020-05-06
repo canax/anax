@@ -3,6 +3,13 @@ Revision history
 
 
 
+v2.0.8 (2020-05-06)
+---------------------------------
+
+* Update content and configuration to provide a basic anax site.
+
+
+
 v2.0.7 (2020-05-06)
 ---------------------------------
 

@@ -21,11 +21,11 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 //"css/style.css",
-                "css/dbwebb-se.min.css",
+                "css/dbwebb-se_v2.min.css",
             ],
             "javascripts" => [
                 "js/main.js",
-                //"js/responsive-menu.js",
+                "js/responsive-menu.js",
             ],
         ],
     ],
@@ -48,21 +48,25 @@ return [
                 "homeLink"      => "",
                 "siteLogoText"  => "Anax",
                 "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
-                "siteLogoTextIconAlt" => "Löv-bild",
+                "siteLogoTextIconAlt" => "Leaf",
             ],
         ],
         [
             "region" => "header-col-2",
             "template" => "anax/v2/navbar/navbar_submenus",
             "data" => [
-                "navbarConfig" => file_exists(__DIR__ . "/navbar/header.php") ?? require __DIR__ . "/navbar/header.php",
+                "navbarConfig" => file_exists(__DIR__ . "/navbar/header.php")
+                    ? require __DIR__ . "/navbar/header.php"
+                    : null,
             ],
         ],
         [
             "region" => "header-col-3",
             "template" => "anax/v2/navbar/responsive_submenus",
             "data" => [
-                "navbarConfig" => file_exists(__DIR__ . "/navbar/responsive.php") ?? require __DIR__ . "/navbar/responsive.php",
+                "navbarConfig" => file_exists(__DIR__ . "/navbar/responsive.php")
+                    ? require __DIR__ . "/navbar/responsive.php":
+                    null,
             ],
         ],
         [
