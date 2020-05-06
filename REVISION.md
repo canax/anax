@@ -7,6 +7,10 @@ v2.0.10 (2020-05-06)
 ---------------------------------
 
 * Remove stylechooser.
+* Arrange default routes in one file.
+* Add default navbars.
+* Remove phpunit cache file on make clean.
+* Remove stylechooser.
 
 
 
