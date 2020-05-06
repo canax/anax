@@ -19,7 +19,10 @@
     },
     "scripts": {
         "post-root-package-install": [
-            "bash .anax/scaffold/postprocess.bash"
+            "composer run-script scaffold-all"
+        ],
+        "scaffold-all": [
+            "bash .anax/anax.bash scaffold theme cimage"
         ]
     },
     "minimum-stability": "beta",
