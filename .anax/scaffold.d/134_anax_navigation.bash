@@ -6,4 +6,4 @@
 #
 
 # Get configuration.
-rsync -a vendor/anax/navigation/config ./
+#rsync -a vendor/anax/navigation/config/ ./
