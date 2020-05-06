@@ -83,6 +83,8 @@ composer create-project anax/anax site "dev-master" --stability dev
 
 ### Git clone
 
+This might be useful during development.
+
 Clone this repo into a folder `site/` and perform composer install and finish up by executing all of the scaffolding scripts.
 
 ```
@@ -94,7 +96,7 @@ composer run-script post-create-project-cmd
 
 
 
-### Scaffolding from components
+### Scaffolding from Anax components
 
 If you want a more customized installation you could decide on what postprocessing scripts you want to execute post the installation.
 

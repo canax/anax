@@ -11,17 +11,14 @@ build:
                 php:
                     version: 7.4
 
-    # dependencies:
-    #     before:
-    #         -
-    #             command: "mkdir build"
-    #     after:
-    #         - "composer require --dev phpunit/phpunit"
+        analysis:
+            tests:
+                override:
+                    - php-scrutinizer-run
 
     tests:
         override:
             -
-                #command: "vendor/bin/phpunit --configuration .phpunit.xml"
                 command: "make phpunit"
                 coverage:
                     file: "build/coverage.clover"
