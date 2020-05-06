@@ -3,6 +3,13 @@ Revision history
 
 
 
+v2.0.7 (2020-05-06)
+---------------------------------
+
+* Fix that composer runs script post install.
+
+
+
 v2.0.6 (2020-05-06)
 ---------------------------------
 

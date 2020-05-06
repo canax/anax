@@ -87,7 +87,7 @@ Clone this repo into a folder `site/` and perform composer install and finish up
 git clone https://github.com/canax/anax.git site
 cd site
 composer install
-composer run-script post-root-package-install
+composer run-script post-create-project-cmd
 ```
 
 
