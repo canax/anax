@@ -63,6 +63,7 @@ composer create-project anax/anax site --stability beta
 
 You might want to use the switch `--ignore-platform-reqs` if your cli environment is different from your apache environment.
 
+<!--
 Here are a few other ways of customising the create project command.
 
 You can specify the exact version you want.
@@ -76,6 +77,7 @@ You can also check out the latest development version from the master branch.
 ```
 composer create-project anax/anax site "dev-master" --stability dev
 ```
+-->
 
 
 
