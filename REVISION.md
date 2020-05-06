@@ -3,10 +3,17 @@ Revision history
 
 
 
+v2.0.6 (2020-05-06)
+---------------------------------
+
+* Change scaffolding structure in .anax/.
+
+
+
 v2.0.5 (2020-05-05)
 ---------------------------------
 
-* Enable make test-anax to test all anax modules invendor/.
+* Enable make test-anax to test all anax modules in vendor/.
 
 
 
