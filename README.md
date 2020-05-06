@@ -17,6 +17,7 @@ Table of Content
 * [Requirements](#Requirements)
 * [Install](#Install)
 * [Verify installation](#Verify-installation)
+* [Post installation](#Post-installation)
 * [License](#License)
 
 
@@ -26,7 +27,7 @@ Requirements
 
 You need:
 
-* PHP 7.2 or later
+* PHP 7.2 or later <!-- with extensions ... -->
 * `composer`
 * `git`
 
@@ -46,7 +47,7 @@ There are different ways on how to get going and install a fresh installation of
 
 1. Get a copy of this repo.
 1. Do `composer install` to get all dependencies.
-1. Execute the scaffolding scripts in `.anax/scaffold/postprocess.bash`.
+1. Execute all|some scaffolding scripts `.anax/*.d/*.bash`.
 
 
 
@@ -54,7 +55,7 @@ There are different ways on how to get going and install a fresh installation of
 
 This is the prefered way since it only requires the use of composer.
 
-Composer automatically installs in the directory `site/` with the dependencies and processes the scaffolding scripts.
+Composer automatically installs in the directory `site/` with the dependencies and processes all the scaffolding scripts.
 
 ```
 composer create-project anax/anax site --stability beta
@@ -80,7 +81,7 @@ composer create-project anax/anax site "dev-master" --stability dev
 
 ### Git clone
 
-Clone this repo into a folder `site/` and perform composer install and finish up by executing the scaffolding scripts.
+Clone this repo into a folder `site/` and perform composer install and finish up by executing all of the scaffolding scripts.
 
 ```
 git clone https://github.com/canax/anax.git site
@@ -91,21 +92,46 @@ composer run-script post-root-package-install
 
 
 
-### Scaffold using anax-cli
+### Scaffolding from components
 
-You can install the base for a website using [anax-cli](https://github.com/canax/anax-cli). This is how to scaffold a site in the directory `site/`.
+If you want a more customized installation you could decide on what postprocessing scripts you want to execute post the installation.
+
+First, install the source and install the components using `composer install`.
 
 ```
-anax create site anax-site-v2
+composer create-project anax/anax site --stability beta --no-scripts
+# or
+git clone https://github.com/canax/anax.git site
+cd site
+composer install
 ```
 
+Then you can manually execute the scaffold script.
+
+```
+bash .anax/anax.bash version
+bash .anax/anax.bash help
+ls -d .anax/*.d
+# See the available commands
+bash .anax/anax.bash scaffold theme cimage
+```
+
+These are the basic parts of scaffolding.
+
+| Part | Path | Details |
+|------|------|---------|
+| `scaffold` | `.anax/scaffold.d` | Copy essentials from modules in `vendor/anax/` to setup a complete installation of Anax.
+| `theme` | `.anax/theme.d` | Install a basic theme in `theme/` and build it.
+| `cimage` | `.anax/cimage.d` | Install and setup to use `mosbth/cimage` as part of the website.
+
+You should remove the `.anax` directory once you have scaffolded your site. Executing scaffolding repeated times is not guaranteed to work and may corrupt your installation.
 
 
 
 Verify installation
 ------------------
 
-These are steps you can carry out to verify and enhance your installation.
+These are steps you can carry out to verify your installation.
 
 
 
@@ -117,13 +143,20 @@ Point your web browser to the directory `site/htdocs`.
 
 ### Install development environment and run tests
 
-The repo comes with a development environment which can be installed and then the tests can be executed.
+The repo comes with a development environment which can be installed and the tests can be executed.
 
 ```
 make install test
 ```
 
 Run `make` to see what more can be done.
+
+
+
+Post installation
+------------------
+
+Here are more tasks to carry out to enhance your installation.
 
 
 

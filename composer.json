@@ -22,7 +22,7 @@
             "composer run-script scaffold-all"
         ],
         "scaffold-all": [
-            "bash .anax/anax.bash scaffold theme cimage"
+            "bash .anax/anax.bash --no-composer-install scaffold theme cimage"
         ]
     },
     "minimum-stability": "beta",
