@@ -6,6 +6,7 @@ Anax
 
 [![Build Status](https://travis-ci.org/canax/anax.svg?branch=master)](https://travis-ci.org/canax/anax)
 [![CircleCI](https://circleci.com/gh/canax/anax.svg?style=svg)](https://circleci.com/gh/canax/anax)
+[![Build Status](https://scrutinizer-ci.com/g/canax/anax/badges/build.png?b=master)](https://scrutinizer-ci.com/g/canax/anax/build-status/master)
 
 The base for a complete installation of Anax with all the basic features. Use this to get going with your Anax project.
 
