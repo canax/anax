@@ -10,7 +10,8 @@ return [
     // all the other views are rendered.
     "layout" => [
         //"template" => "anax/v2/layout/default",
-        "template" => "anax/v2/layout/dbwebb_se",
+        //"template" => "anax/v2/layout/dbwebb_se",
+        "template" => "anax/v2/layout/anax",
         "region" => "layout",
         "sort" => null,
         "data" => [
