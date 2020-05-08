@@ -19,4 +19,4 @@ chmod 777 cache/anax
 echo "$git_ignore_files" > cache/anax/.gitignore
 
 # Get configuration for the flat file content.
-rsync -a vendor/anax/content/config ./
+rsync -a --exclude router vendor/anax/content/config ./
