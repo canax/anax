@@ -28,6 +28,8 @@ install -d htdocs/img htdocs/cimage cache/cimage
 chmod 777 cache/cimage
 echo "$git_ignore_files" > cache/cimage/.gitignore
 cp vendor/mos/cimage/webroot/img.php htdocs/cimage
+#cp vendor/mos/cimage/webroot/imgf.php htdocs/cimage
 cp vendor/mos/cimage/webroot/img/car.png htdocs/img/
 echo "$cimage_config" > htdocs/cimage/img_config.php
+#cp htdocs/cimage/img_config.php htdocs/cimage/imgf_config.php
 touch htdocs/cimage/index.html
