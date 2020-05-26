@@ -3,6 +3,16 @@ Revision history
 
 
 
+v2.0.13 (2020-05-26)
+---------------------------------
+
+* Enable docker-compose during scaffold.
+* Use only standard installation of img.php.
+* Ignore the cache/ dir*
+* Exclude router when scaffolding anax/content
+
+
+
 v2.0.12 (2020-05-07)
 ---------------------------------
 
