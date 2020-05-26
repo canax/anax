@@ -16,7 +16,7 @@
 #cp vendor/anax/commons/test/config_sample.php ./test/config.php
 
 # Enable to run site in docker
-#rsync -a vendor/anax/commons/docker-compose_site.yml docker-compose.yml
+rsync -a vendor/anax/commons/docker-compose_site.yml docker-compose.yml
 
 # Get configuration for commons.
 rsync -a vendor/anax/commons/config/ config/
