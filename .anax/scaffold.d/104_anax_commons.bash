@@ -3,8 +3,8 @@
 # anax/commons
 #
 
-# Get a Makefile, could be useful
-#rsync -a vendor/anax/commons/Makefile Makefile
+# Get a Makefile adapted for a site
+rsync -a vendor/anax/commons/Makefile_site Makefile
 
 # Install general development files from anax/commons.
 #rsync -a vendor/anax/commons/{.gitignore,.circleci,.php*.xml} ./
