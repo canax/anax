@@ -8,4 +8,5 @@
 # and will be replaced by the below actions
 git clone https://github.com/desinax/theme-dbwebb.se theme
 (cd theme && make install)
+rm -rf theme/.git
 make theme
