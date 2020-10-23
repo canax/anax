@@ -3,6 +3,13 @@ Revision history
 
 
 
+v2.0.17 (2020-10-23)
+---------------------------------
+
+* Scaffold scripts to create cache- and log-dirs with the correct permissions.
+
+
+
 v2.0.16 (2020-10-23)
 ---------------------------------
 

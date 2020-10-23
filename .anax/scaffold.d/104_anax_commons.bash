@@ -29,7 +29,7 @@ rsync -a vendor/anax/commons/config/apache config/
 rsync -a vendor/anax/commons/config/docker config/
 
 # Add log directory for apache (docker) logs
-install -p 0777 -d log/apache
+install --mode=0777 -d log/apache
 echo "$git_ignore_files" > log/apache/.gitignore
 
 # Get configuration for commons.

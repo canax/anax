@@ -14,8 +14,7 @@ git_ignore_files="\
 "
 
 # Do the setup
-install -d cache/anax
-chmod 777 cache/anax
+install --mode=0777 -d cache/anax
 echo "$git_ignore_files" > cache/anax/.gitignore
 
 # Get configuration for the flat file content.

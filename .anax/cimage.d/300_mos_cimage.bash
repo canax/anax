@@ -25,7 +25,7 @@ git_ignore_files="\
 
 # Do the setup
 install -d htdocs/img htdocs/cimage
-install -p 0777 -d cache/cimage
+install --mode=0777 -d cache/cimage
 echo "$git_ignore_files" > cache/cimage/.gitignore
 cp vendor/mos/cimage/webroot/img.php htdocs/cimage
 #cp vendor/mos/cimage/webroot/imgf.php htdocs/cimage
