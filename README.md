@@ -19,6 +19,7 @@ Table of Content
 * [Install](#Install)
 * [Verify installation](#Verify-installation)
 * [Post installation](#Post-installation)
+* [CLI-utility anax](#CLI-utility-anax)
 * [License](#License)
 
 
@@ -183,6 +184,25 @@ Check what other packages that might be suggested. These are not essential, just
 
 ```
 composer suggests --no-dev --by-package
+```
+
+
+
+CLI-utility anax
+------------------
+
+When working with an anax installation you might want to opt to use the anax-cli ([anax/anax-cli](https://packagist.org/packages/anax/anax-cli)) to aid in scaffolding ordinary components.
+
+You can install anax cli like this.
+
+```
+composer require anax/anax-cli
+```
+
+You can then execute it like this.
+
+```
+vendor/bin/anax.bash --help
 ```
 
 
