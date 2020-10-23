@@ -8,7 +8,7 @@ v2.0.* (2020-10-23)
 
 * Remove unneded navbar.php from config.
 * Add section on anax cli to README.
-
+* Install database config as default, but do not load it in $di. 
 
 
 v2.0.17 (2020-10-23)
