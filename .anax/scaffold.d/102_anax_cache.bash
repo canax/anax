@@ -4,6 +4,12 @@
 #
 # Setup cache/ and related.
 #
+gitignore = "
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+"
 
 # Create the cache directory.
 install -d cache

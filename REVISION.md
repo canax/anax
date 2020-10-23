@@ -3,6 +3,13 @@ Revision history
 
 
 
+v2.0.16 (2020-10-23)
+---------------------------------
+
+* Bump version of anax/commons to fix missing configuration for docker apache.
+
+
+
 v2.0.15 (2020-10-22)
 ---------------------------------
 
