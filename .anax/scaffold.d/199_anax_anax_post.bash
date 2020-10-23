@@ -10,6 +10,9 @@ rm -f config/router/000_application.php
 cp config/page.php config/page_default.php
 cp config/page_anax.php config/page.php
 
+# Remove unneeded config items
+rm -f config/navbar.php # From anax/page
+
 # # Add default stylesheets
 # rsync -a vendor/anax/anax/htdocs/css htdocs/
 
