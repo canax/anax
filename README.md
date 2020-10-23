@@ -146,6 +146,18 @@ Point your web browser to the directory `site/htdocs`.
 
 
 
+### Open your site, through docker, in a web browser
+
+Start the docker container.
+
+```
+docker-compose up website
+```
+
+Point your web browser to `http://localhost:8088/`.
+
+
+
 ### Install development environment and run tests
 
 The repo comes with a development environment which can be installed and the tests can be executed.

@@ -7,6 +7,7 @@ v2.0.16 (2020-10-23)
 ---------------------------------
 
 * Bump version of anax/commons to fix missing configuration for docker apache.
+* Fix how the cache and log directories are stored in git.
 
 
 
