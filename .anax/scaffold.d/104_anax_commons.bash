@@ -2,6 +2,12 @@
 #
 # anax/commons
 #
+git_ignore_files="\
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+"
 
 # Get a Makefile adapted for a site
 rsync -a vendor/anax/commons/Makefile_site Makefile
@@ -18,8 +24,16 @@ rsync -a vendor/anax/commons/Makefile_site Makefile
 # Enable to run site in docker
 rsync -a vendor/anax/commons/docker-compose_site.yml docker-compose.yml
 
+# Get essentials to be able to run apache in docker
+rsync -a vendor/anax/commons/config/apache config/
+rsync -a vendor/anax/commons/config/docker config/
+
+# Add log directory for apache (docker) logs
+install -p 0777 -d log/apache
+echo "$git_ignore_files" > log/apache/.gitignore
+
 # Get configuration for commons.
-rsync -a vendor/anax/commons/config/ config/
+rsync -a vendor/anax/commons/config/commons.php config/
 
 # Create directory structure for htdocs
 install -d htdocs/img

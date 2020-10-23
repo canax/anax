@@ -30,7 +30,7 @@
     "require": {
         "php": "^7.2",
         "anax/cache": "^2.0.0-beta.5",
-        "anax/commons": "^2.0.11",
+        "anax/commons": "^2.0.12",
         "anax/configure": "^2.0.0-beta.1",
         "anax/content": "^2.0.0-beta.5",
         "anax/controller": "^2.0.0-beta.1",
